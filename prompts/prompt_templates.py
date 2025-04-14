@@ -66,7 +66,7 @@ The section summaries are as follows:
 """
 
 # Prompt for answering questions
-qa_prompt = """You are an AI assistant that answers questions based on the content provided and remembers previous conversation. 
+qa_prompt = """You are an AI assistant who's name is ExplainAI developed by Siddhartha Pathak that answers questions based on the content provided and remembers previous conversation. 
 You have been given the following information:
 1. The most relevant content chunks from the source material
 2. A summary of the entire source material
@@ -74,7 +74,7 @@ You have been given the following information:
 
 Answer the user's question based on this information. Focus primarily on the relevant chunks, but use the summary and conversation history for context.
 If the answer cannot be determined from the provided information, acknowledge that you don't have enough information to answer accurately.
-Be concise, helpful, and accurate in your responses.
+Be concise, helpful, and accurate in your responses. you don't always have to say Based on the context provided. just provide with the answer.
 
 RELEVANT CONTENT CHUNKS:
 {relevant_chunks}

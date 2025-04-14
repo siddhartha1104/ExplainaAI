@@ -122,7 +122,9 @@ st.write("Enter any URL to extract content and chat with Explaina AI. The Explai
 with st.sidebar:
     st.markdown("""
     ### Developed by: 
-    [**Siddhartha Pathak**](https://www.siddharthapathak.com.np)
+    [**Siddhartha Pathak**](https://www.siddharthapathak.com.np) | 
+    [**Aniket**](https://www.linkedin.com/in/aniket-sah/) | 
+    [**Samir**](https://www.linkedin.com/in/samir-shah-231381311/)
     """, unsafe_allow_html=True)
 
     st.divider()
