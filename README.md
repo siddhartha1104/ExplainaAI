@@ -23,7 +23,7 @@ A Streamlit application that allows users to extract content from various web so
 1. Clone the repository
 
 ```bash
-git clone <url>
+git clone https://github.com/siddhartha1104/ExplainaAI.git
 cd ExplainaAI
 ```
 
