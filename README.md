@@ -14,6 +14,7 @@ A Streamlit application that allows users to extract content from various web so
   - Static webpages using BeautifulSoup
   - Dynamic webpages using Selenium
 - Process and summarize content using the Groq LLM API
+- model: **_llama3-70b-8192_**
 - Store content chunks in a vector database (ChromaDB)
 - Interactive chat interface with vector search for context-aware responses
 - Memory of conversation history for better contextual understanding
