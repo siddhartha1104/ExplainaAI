@@ -116,14 +116,14 @@ def clear_conversation():
 
 # Main Streamlit app
 st.title("Explaina AI with Vector Memory")
-st.write("Enter any URL to extract content and chat with it. The chatbot will remember your conversation and use vector search to find relevant content!")
+st.write("Enter any URL to extract content and chat with Explaina AI. The Explaina AI will remember your conversation and use vector search to find relevant content!")
 
 # Sidebar for URL input and processing
 with st.sidebar:
     st.markdown("""
     ### Developed by: 
-    [**Siddhartha Pathak**](https://www.siddharthapathak.com.np) 
-""", unsafe_allow_html=True)
+    [**Siddhartha Pathak**](https://www.siddharthapathak.com.np)
+    """, unsafe_allow_html=True)
 
     st.divider()
 
@@ -217,7 +217,7 @@ if st.session_state.url_processed:
         # Add assistant response to chat history
         st.session_state.chat_history.append({"role": "assistant", "content": answer})
 else:
-    st.info("Please process a URL first to start chatting about its content.")
+    st.info("Please enter a URL first to start chatting about its content.")
 
 if __name__ == "__main__":
     # This will run when the script is executed directly
