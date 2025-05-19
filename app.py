@@ -1,6 +1,3 @@
-# Main Streamlit application
-
-# app.py
 import streamlit as st
 import os
 import time
@@ -122,9 +119,7 @@ st.write("Enter any URL to extract content and chat with Explaina AI. The Explai
 with st.sidebar:
     st.markdown("""
     ### Developed by: 
-    [**Siddhartha Pathak**](https://www.siddharthapathak.com.np) | 
-    [**Aniket**](https://www.linkedin.com/in/aniket-sah/) | 
-    [**Samir**](https://www.linkedin.com/in/samir-shah-231381311/)
+    [**Siddhartha Pathak**](https://www.siddharthapathak.com.np)
     """, unsafe_allow_html=True)
 
     st.divider()
@@ -224,3 +219,7 @@ else:
 if __name__ == "__main__":
     # This will run when the script is executed directly
     pass
+
+# Add a small footer
+st.markdown("---")
+st.markdown("<div style='text-align: center; color: gray; font-size: 0.8em;'>Developed by Siddhartha Pathak</div>", unsafe_allow_html=True)
